@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>DurgerKingExampleBot</title>
-	<meta name="viewport"
-	      content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, viewport-fit=cover"/>
-	<meta name="format-detection" content="telephone=no"/>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-	<meta name="MobileOptimized" content="176"/>
-	<meta name="HandheldFriendly" content="True"/>
-	<meta name="robots" content="noindex, nofollow"/>
-	<script src="https://tg.dev/js/telegram-web-app.js?7"></script>
-	<script>
+    <meta charset="utf-8">
+    <title>DurgerKingExampleBot</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, viewport-fit=cover"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="MobileOptimized" content="176"/>
+    <meta name="HandheldFriendly" content="True"/>
+    <meta name="robots" content="noindex, nofollow"/>
+    <script src="https://tg.dev/js/telegram-web-app.js?7"></script>
+    <script>
         function setThemeClass() {
             document.documentElement.className = Telegram.WebApp.colorScheme;
         }
+    </script>
+</head>
+<body>
+    <img src="/img/tgs/Burger.tgs" alt="Burger">
+</body>
+</html>
 
         Telegram.WebApp.onEvent('themeChanged', setThemeClass);
         setThemeClass();
