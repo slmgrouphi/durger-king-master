@@ -538,5 +538,12 @@
         "userHash": null
     });
 </script>
+<!-- Telegram Login Widget -->
+<script async src="https://telegram.org/js/telegram-widget.js?7"
+  data-telegram-login="CareMenuBot" 
+  data-size="large"
+  data-radius="10"
+  data-auth-url="https://floating-caverns-48167-bd027ab0afd4.herokuapp.com/auth"
+  data-request-access="write"></script>
 </body>
 </html>
