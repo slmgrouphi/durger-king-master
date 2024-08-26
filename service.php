@@ -20,6 +20,10 @@ Router::any("{$_ENV['REMOTE_URI']}/telegram", function () {
     Response::send(StatusCode::OK, 'Bot is working...');
 });
 
+Router::any("{$_ENV['REMOTE_URI']}/auth", function () {
+    require __DIR__ . '/public/auth.php'; // Ensure auth.php exists in public
+});
+
 Router::any("{$_ENV['REMOTE_URI']}", function () {
     echo "Ready to serve...";
 });
